@@ -445,7 +445,7 @@ int opcion(board *b, int x, int y) {
 			aux = z;
 			cont++;
 		} else
-			printf("El valor NO colocado\n");
+			printf("El valor no es colocado\n");
 	}
 	if (cont != 1)
 		b->matriz[x][y].valor = 0;
